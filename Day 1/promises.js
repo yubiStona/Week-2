@@ -9,7 +9,6 @@ const myPromise = new Promise((resolve, reject) => {
     }else{
         reject(`${a} is odd number`);
     }
-
 });
 
 myPromise.then((m)=>{

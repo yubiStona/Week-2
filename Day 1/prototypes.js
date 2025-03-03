@@ -8,5 +8,5 @@ Person.prototype.gender="male";//this propet=rty will be inherited by all the ob
 
 const person1=new Person("yubi","stona");
 const person2=new Person("alex","test");
-console.log(person1);//can be seen under prototypes in concole
+console.log(person1);//can be seen under prototypes in browser console
 console.log(person2);   
